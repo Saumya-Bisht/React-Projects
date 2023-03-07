@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Card</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body style="background-color: rgb(41, 37, 37);display: flex;justify-content: center;align-items: center;padding: 2.5%; " >
+   <div style="padding:5%;display: flex;justify-content: center;align-items: center;height: 65vh; width: 30vw; " id="root"></div>
+
+    <script>
+
+        let div=React.createElement('div',{style:{ backgroundColor:'white',width:'30vw',textAlign:'center',boxShadow:'0px 0px 10px black'}},[React.createElement('img',{src:"WhatsApp Image 2023-03-08 at 1.33.43 AM (1).jpeg",style:{borderRadius:'50%',width:'30%',height:'100px',marginTop:'10%'}},null),React.createElement('h1',null,"Saumya Bisht"),React.createElement('p',{style:{color:'gray'}},"Software Developer"),React.createElement('div',{style:{display:'flex',justifyContent:'space-evenly'}},[React.createElement('div',null,[React.createElement('p',{style:{color:'purple',margin:'0',fontSize:'2rem'}},"26"),React.createElement('p',{style:{color:'gray'}},"Shoot")]),
+        React.createElement('div',null,[React.createElement('p',{style:{color:'purple',margin:'0',fontSize:'2rem'}},"94"),React.createElement('p',{style:{color:'gray'}},"Following")]),
+        React.createElement('div',null,[React.createElement('p',{style:{color:'purple',margin:'0',fontSize:'2rem'}},"15096"),React.createElement('p',{style:{color:'gray'}},"Followers")])
+    ]),React.createElement('div',{style:{display:'flex',justifyContent:'space-evenly',paddingBottom:'10%'}},[React.createElement('button',{style:{backgroundColor:'purple',color:'white',border:'0',borderRadius:'10%',height:'45px',width:'130px',fontSize:'16px'}},"FOLLOW"),React.createElement('button',{style:{backgroundColor:'magenta',color:'white',border:'0',borderRadius:'10%',height:'45px',width:'130px',fontSize:'16px'}},"MESSAGE")])])
+
+        ReactDOM.render(div,document.getElementById('root'));
+    </script>
+</body>
+</html>

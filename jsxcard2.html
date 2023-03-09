@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSX Card</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body style="background-color: rgb(41, 37, 37);display: flex;justify-content: center;align-items: center;padding: 2.5%; ">
+    <div  style="padding:5%;display: flex;justify-content: center;align-items: center; background-color: gray;height: 65vh; width: 30vw; " id="root"></div>
+    <script type="text/babel">
+        let div=<div style={{borderRadius:'10px', backgroundColor:'white',width:'30vw',textAlign:'center',boxShadow:'0px 0px 10px black'}}>
+            <img style={{borderRadius:'10px 10px 0px 0px',width:'100%',height:'300px'}} src="https://t4.ftcdn.net/jpg/01/57/02/37/360_F_157023792_PvcaLSgI6fOxwKYnyrBPiXIcdaOpCOiR.jpg"/>
+            <h1>Saumya Bisht</h1>
+            <p style={{color:'gray'}}>Software Developer</p>
+                <div style={{display:'flex',justifyContent:'space-evenly'}}>
+                        <div>
+                            <p style={{margin:'0',fontSize:'1.5rem'}}>26</p>
+                            <p style={{color:'gray'}}>Shoot</p></div>
+                        <div>
+                            <p style={{margin:'0',fontSize:'1.5rem'}}>94</p>
+                            <p style={{color:'gray'}}>Following</p></div>
+                        <div>
+                            <p style={{margin:'0',fontSize:'1.5rem'}}>99999</p>
+                            <p style={{color:'gray'}}>Followers</p></div>
+                </div>
+            </div>
+
+ReactDOM.render(div,document.getElementById('root'));
+    </script>
+    
+</body>
+</html>

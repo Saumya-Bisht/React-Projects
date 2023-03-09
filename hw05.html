@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body style="font-family: sans-serif ;" id="root">
+    
+    
+    <script type="text/babel">
+       
+       let style={color:"white",textDecoration:"none"}
+        
+        function Header(){
+            return <div style={{backgroundColor:"rgb(204, 0, 0)",display:"flex",justifyContent:'space-between'}}>
+                <div style={{width:"20vw",display:"flex",justifyContent:"center"}}><h3 style={{color:"white"}}>Koding Made Simple</h3></div>
+                <div style={{display:"flex",justifyContent:"space-evenly",width:"30vw",alignItems:"center"}}>
+                    <a style={style} href="#">Bootstrap</a>
+                    <a style={style} href="#">Themes</a>
+                    <a style={style} href="#">Blog</a>
+                    </div>
+                </div>
+        }
+        function MainContent(){
+            return <div >
+                <div style={{marginTop:"1rem",backgroundColor:"lightgray",height:"70vh",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"flex-start",paddingLeft:"5rem"}} >
+                    <h1>Customize Bootstrap Navbar</h1>
+                    <p>Easy way to change Navbar background,text and hover link color in bootstrap...</p>
+                    
+                    </div>
+                   
+                </div>
+        }
+        function App(){
+            return <div>
+                <Header/>
+                <MainContent/>
+                </div>
+        }
+
+        ReactDOM.render(<App/>,document.getElementById('root'));
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body style="font-family: cursive ; margin: 0; background-image:url(wallpaper.jpg);background-size: cover;" id="root">
+    <script type="text/babel">
+         let style={color:"white",textDecoration:"none",fontSize:"14px"}
+        function Header(){
+            return <div style={{backgroundColor:"black",display:"flex",justifyContent:'space-between'}} >
+                <div style={{height:"8vh",width:"10vw",display:"flex",justifyContent:"center",alignItems:"center"}} ><h3 style={{color:"white",fontSize:"2rem"}} >LOGO</h3></div>
+                <div style={{display:"flex",justifyContent:"space-evenly",width:"30vw",alignItems:"center"}}>
+                    <a style={style} href="#">HOME</a>
+                    <a style={style} href="#">ABOUT</a>
+                    <a style={style} href="#">MENU</a>
+                    <a style={style} href="#">ORDER</a>
+                    <a style={style} href="#">CONTACT</a>
+                    </div>
+                </div>
+        }
+        function Main(){
+            return <div style={{height:"88vh",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"space-between"}}>
+                <h1 style={{color:"white",fontSize:"40px"}}>Home</h1>
+                <div>
+                    <span style={{color:"white"}}>Made with ❤ by </span>
+                    <span style={{color:"magenta"}}>SAUMYA BISHT</span></div>
+                </div>
+        }
+
+        function App(){
+            return <div>
+                <Header/>
+                <Main/>
+                </div>
+        }
+
+
+ReactDOM.render(<App/>,document.getElementById('root'));
+    </script>
+</body>
+</html>

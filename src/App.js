@@ -1,19 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from "./components/header";
-import Main1 from "./components/main1";
-import Main2 from "./components/main2";
-import Main3 from "./components/main3";
-import Footer from './components/footer';
+// import logo from './logo.svg';
+// import './App.css';
+//------ hootsuiteapp---
+// import Header from './components/hootsuiteheader';
+// import MainContent from './components/hootsuitemain';
+// import Footer from './components/hootsuitefooter'
+
+//----carapp-----
+// import Header from "./components/header";
+// import Main1 from "./components/main1";
+// import Main2 from "./components/main2";
+// import Main3 from "./components/main3";
+// import Footer from './components/footer';
+
+//----logoapp-----
+import Header from './components/logoheader';
+import Mainlogo from './components/logomain';
+import Footer from './components/logofooter';
 
 function App() {
   return (
-    <div style={{fontFamily:"Times New Roman",margin:"0"}} >
+    <div style={{margin:"0"}}>
       <Header/>
+      <Mainlogo/>
+      <Footer/>
+
+
+      {/* <Header/>      //wt-01
       <Main1/>
       <Main2/>
       <Main3/>
-      <Footer/>
+      <Footer/> */}
+
+
+      {/* <Header/>     //assign-06
+      <MainContent/>
+      <Footer/> */}
+
+
+      
     </div>
   );
 }

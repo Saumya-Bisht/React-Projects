@@ -1,18 +1,18 @@
 // import logo from './logo.svg';
 // import './App.css';
-//------ hootsuiteapp---
+//------ hootsuiteapp--- assign-06
 // import Header from './components/hootsuiteheader';
 // import MainContent from './components/hootsuitemain';
 // import Footer from './components/hootsuitefooter'
 
-//----carapp-----
+//----carapp----- wt-01
 // import Header from "./components/header";
 // import Main1 from "./components/main1";
 // import Main2 from "./components/main2";
 // import Main3 from "./components/main3";
 // import Footer from './components/footer';
 
-//----logoapp-----
+//----logoapp----- homework-06
 import Header from './components/logoheader';
 import Mainlogo from './components/logomain';
 import Footer from './components/logofooter';

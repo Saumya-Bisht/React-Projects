@@ -1,0 +1,29 @@
+.body{
+    display: flex;
+  background-color: blueviolet;
+  justify-content: center;
+  height: 100vh;
+}
+button{
+    background-color: #003366;
+    color: white;
+    border:0;
+    width:150px;
+    height: 25px;
+    margin: 3px;
+}
+input{
+    width:300px;
+    height: 25px;
+    border:2px solid purple;
+}
+h3{
+    text-align: center;
+    color:white;
+    letter-spacing: 3px;
+}
+.li{
+    color: white;
+    font-weight: bolder;
+    /* margin: 5px; */
+}

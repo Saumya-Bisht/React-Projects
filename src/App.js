@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 //------ hootsuiteapp--- assign-06
 // import Header from './components/hootsuiteheader';
 // import MainContent from './components/hootsuitemain';
@@ -22,15 +22,23 @@ import './App.css';
 // import Task2 from './components/tasks/task2';
 
 // -------tic-tac-toe-----
-import Board from './components/tic-tac-toe/t3';
+// import Board from './components/tic-tac-toe/t3';
+
+// import Counter from './components/counterapp';
+
+import Todo from './components/todo app/todo';
+import './components/todo app/todo.css'
 
 function App() {
   return (
-    <div className='body' style={{margin:"0",background: "linear-gradient(to top left, #ffcccc 0%, #ff99cc 100%)",padding:"9.5%"}}>
-      <h1 style={{textAlign:"center",color:"#690b3b"}}>TIC-TAC-TOE GAME</h1>
-      <Board/>
-      <h3 style={{textAlign:"center",color:"#b70561"}}>Made with 💖 by SAUMYA BISHT</h3>
+    // <div className='body' style={{margin:"0",background: "linear-gradient(to top left, #ffcccc 0%, #ff99cc 100%)",padding:"9.5%"}}>
+    //   <h1 style={{textAlign:"center",color:"#690b3b"}}>TIC-TAC-TOE GAME</h1>
+    //   <Board/>
+    //   <h3 style={{textAlign:"center",color:"#b70561"}}>Made with 💖 by SAUMYA BISHT</h3>
+    <div className='body'  style={{margin:"0"}} >
+      <Todo/>
 
+      {/* <Counter/> */}
 
       {/* <Task1/>
       <Task2/> */}
@@ -40,7 +48,7 @@ function App() {
       <Footer/> */}
 
 
-      {/* <Header/>      //wt-01
+      {/* <Header/>      
       <Main1/>
       <Main2/>
       <Main3/>

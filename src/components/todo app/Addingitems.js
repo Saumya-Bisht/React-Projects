@@ -10,7 +10,7 @@ function Addingitems({todo,deleteItem,toggle}) {
     <ol>
     {todo.map((ele,ind)=>{
         return <div>
-            <li className='li'>{ele.title} <span style={{color:"maroon",fontWeight:"bolder",marginLeft:"1rem"}}>{ele.status?"Completed":"Pending"}</span> <button onClick={()=>{toggle(ind)}}><BiShuffle/> </button>&nbsp;
+            <li className='li'>{ele.title} <span style={{color:"maroon",fontWeight:"bolder"}}>{ele.status?"Completed":"Pending"}</span> <button onClick={()=>{toggle(ind)}}><BiShuffle/> </button>&nbsp;
             <button onClick={()=>{deleteItem(ind)}}> <FaTrashAlt/></button></li>
             
             </div>

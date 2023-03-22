@@ -34,7 +34,7 @@ function Todo() {
     <div>
         <h2 style={{textAlign:"center",color:"white"}}>TODO LIST</h2>
         <input value={inputvalue} onChange={(e)=>setInputvalue( e.target.value)} type="text" placeholder='Enter an activity or item...'/>
-        <button onClick={addItem}>Add Item</button>
+        <button style={{width:"200px",height:"30px"}} onClick={addItem}>Add Item</button>
         <Addingitems todo={buttonvalue} deleteItem={deleteItem} toggle={toggle}/>
     </div>
   )

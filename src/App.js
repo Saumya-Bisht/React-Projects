@@ -26,8 +26,14 @@
 
 // import Counter from './components/counterapp';
 
-import Todo from './components/todo app/todo';
-import './components/todo app/todo.css'
+// import Todo from './components/todo app/todo';
+// import './components/todo app/todo.css'
+
+// import CardDisplay from "./components/usercardapi/card";
+
+// import { Users } from "./components/gender filter/gender";
+import Hwtwelve from "./components/homework12/Hw12";
+import './components/homework12/hw12.css'
 
 function App() {
   return (
@@ -36,7 +42,14 @@ function App() {
     //   <Board/>
     //   <h3 style={{textAlign:"center",color:"#b70561"}}>Made with 💖 by SAUMYA BISHT</h3>
     <div className='body'  style={{margin:"0"}} >
-      <Todo/>
+
+
+    <Hwtwelve/>
+      {/* <CardDisplay/> */}
+      {/* <Users/> */}
+
+
+      {/* <Todo/> */}
 
       {/* <Counter/> */}
 

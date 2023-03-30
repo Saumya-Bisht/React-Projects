@@ -29,11 +29,12 @@
 // import Todo from './components/todo app/todo';
 // import './components/todo app/todo.css'
 
-// import CardDisplay from "./components/usercardapi/card";
+import CardDisplay from "./components/usercardapi/table";
+import './components/usercardapi/table.css'
 
 // import { Users } from "./components/gender filter/gender";
-import Hwtwelve from "./components/homework12/Hw12";
-import './components/homework12/hw12.css'
+// import Hwtwelve from "./components/homework12/Hw12";
+// import './components/homework12/hw12.css'
 
 function App() {
   return (
@@ -44,8 +45,8 @@ function App() {
     <div className='body'  style={{margin:"0"}} >
 
 
-    <Hwtwelve/>
-      {/* <CardDisplay/> */}
+    {/* <Hwtwelve/> */}
+      <CardDisplay/>
       {/* <Users/> */}
 
 
